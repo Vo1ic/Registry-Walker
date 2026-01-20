@@ -47,7 +47,7 @@ $currentPath = "HKLM:\SOFTWARE"
 
 # Clear screen on start
 Clear-Host 
-Write-Host "Registry Walker v1.5 Loaded." -ForegroundColor Green
+Write-Host "Registry Walker v1.0 Loaded." -ForegroundColor Green
 Write-Host "Type 'help' for commands." -ForegroundColor Gray
 Write-Host ""
 
@@ -121,4 +121,5 @@ while ($true) {
         }
     }
     Write-Host ""
+
 }
